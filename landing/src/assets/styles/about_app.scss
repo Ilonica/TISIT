@@ -1,0 +1,63 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F5FA;
+    padding-bottom: 48px;
+}
+
+.title {
+    width: 752px;
+    color: #28272B;
+    text-align: center;
+    font-family: Unbounded;
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 135%; /* 72.9px */
+
+    &-app {
+        width: 899px;
+    }
+}
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+    &-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &-text {
+        width: 268px;
+        color: #28272B;
+        font-family: Unbounded;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: normal;
+
+        &-two {
+            width: 288px;
+        }
+
+        &-functions {
+            height: 66px;
+        }
+    }
+
+    &-img {
+        width: 277px;
+        height: 555px;
+        flex-shrink: 0;
+    }
+
+    &-two-iphon {
+        width: 436px;
+        height: 555px;
+    }
+}

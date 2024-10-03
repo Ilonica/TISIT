@@ -1,0 +1,148 @@
+*{padding: 0; margin: 0;}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-color: #F6F5FA;;
+}
+
+.header {
+    display: flex;
+    height: 144px;
+    justify-content: center;
+    align-items: center;
+    // padding-left: 150px;
+    // padding-right: 150px;
+    gap: 720px;
+}
+
+.logo {
+    display: flex;
+    justify-content: tflex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-logo{
+    color: #28272B;
+    font-family: Urbanist;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logo-img{
+    width: 57px;
+    height: 57px;
+    border-radius: 100%;
+    background-color:  #5664FF;
+}
+
+.btn-site {
+    display: flex;
+    width: 260px;
+    height: 48px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    // flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid #5664FF;
+    background-color: transparent;
+    cursor: pointer;
+
+    &-text{
+        color: #5664FF;
+        font-family: Unbounded;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.btn-site svg {
+    color: #5664FF;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 48px;
+}
+
+.promo {
+    display: flex;
+    flex-direction: column;
+    z-index: 2; 
+    margin-top: 76px;
+    gap: 48px;
+    position: relative;
+    left: 65px;
+}
+
+.text-promo {
+    width: 609px;
+    color: #28272B;
+    font-family: Unbounded;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 135%; 
+}
+
+.download {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.btn-download {
+    display: flex;
+    width: 252px;
+    height: 72px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #DCF831;
+    border: none;
+    cursor: pointer;
+
+    &-text{
+        color: #28272B;
+        font-family: Unbounded;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.gradient{
+    width: 640px;
+    height: 640px;
+    flex-shrink: 0;
+    border-radius: 640px;
+    background: radial-gradient(50% 50% at 50% 50%, #808AFF 11.99%, rgba(246, 245, 250, 0.00) 100%);
+    position: relative;
+    left: -5px;
+    
+    &-img {
+        width: 505.014px;
+        height: 633px;
+        flex-shrink: 0;
+        object-fit: cover;
+    }
+}
+
+.urbanist {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
