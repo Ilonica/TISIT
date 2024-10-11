@@ -7,7 +7,7 @@ import MyIcon from '@/assets/styles/icon.svg';
         <header class="header">
             <div class="logo">
                 <div class="logo-img"></div>
-                <p class="text-logo">TISIT</p>
+                <p class="logo-text">TISIT</p>
             </div>
             <button class="btn-site btn-site-text">
                 Посмотреть на сайте 
@@ -25,7 +25,7 @@ import MyIcon from '@/assets/styles/icon.svg';
         </header>
         <div class="main">
             <div class="promo">
-                <p class="text-promo">Ваш персональный<br>AI тренер</p>
+                <p class="promo-text">Ваш персональный<br>AI тренер</p>
                 <div class="download">
                     <button class="btn-download btn-download-text">Скачать на iPhone</button>
                     <button class="btn-download btn-download-text">Скачать на Android</button>

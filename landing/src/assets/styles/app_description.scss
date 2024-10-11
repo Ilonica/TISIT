@@ -13,6 +13,16 @@
     }
 }
 
+@media (max-width: 768px) {
+    .main-content {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+
 .download-app {
     display: flex;
     flex-direction: column;
@@ -73,5 +83,33 @@
     &-qr {
         width: 500px;
         height: 500px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .description-block {
+        width: 288px;
+        height: 300px;
+        flex-direction: column;
+        gap: 0px;
+        border-radius: 40px;
+        justify-content: flex-end;
+
+        &-text {
+            width: 245px;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        &-img {
+            width: 198.57375px;
+            height: 234.9px;
+        }
+
+        &-logo {
+            width: 19px;
+            height: 19px;
+        }
     }
 }
