@@ -10,7 +10,7 @@
 
 @media (max-width: 768px) {
     .main-content {
-        padding-bottom: 40px;
+        padding-bottom: 0px;
     }
 }
 
@@ -33,6 +33,10 @@
         width: 288px;
         font-size: 20px;
         text-align: start;
+
+        &-app {
+            font-size: 18px;
+        }
     }
 }
 
@@ -40,52 +44,66 @@
     display: flex;
     flex-direction: row;
     gap: 50px;
-    // overflow-x: auto; /* Позволяет прокручивать элементы по горизонтали */
-    // scroll-snap-type: x mandatory; /* Включает "snap" для плавной прокрутки */
    
     &-block {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-        // flex: 0 0 auto; /* Позволяет элементам занимать фиксированную ширину */
-        // width: 300px; /* Установите ширину элементов карусели */
-        // scroll-snap-align: start; /* Позволяет элементам "прилипать" к началу при прокрутке */
     }
 
     &-text {
         width: 268px;
+        height: 66px;
         color: #28272B;
         font-family: Unbounded;
+        display: flex;
+        justify-content: flex-start;
         font-size: 18px;
         font-weight: 400;
         line-height: normal;
 
         &-two {
-            width: 288px;
-        }
-
-        &-functions {
-            height: 66px;
+            width: 300px;
         }
     }
 
     &-img {
-        width: 277px;
         height: 555px;
         flex-shrink: 0;
     }
-
-    &-two-iphon {
-        width: 436px;
-        height: 555px;
-    }
 }
 
+@media (max-width: 768px) {
+    .carousel {
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        padding: 20px 0;
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+        box-sizing: border-box;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
 
-// @media (min-width: 769px) {
-//     .carousel {
-//         display: block; /* Вернуть к блочному отображению на больших экранах */
-//     }
-// }
+        &-block {
+            flex: 0 0 auto;
+            width: 100%;
+            scroll-snap-align: start;
+            box-sizing: border-box;
+        }
+
+        &-text {
+            justify-content: center;
+            font-size: 14px;
+        }
+
+        &-img {
+            width: auto;
+            height: 400px;
+        }
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}

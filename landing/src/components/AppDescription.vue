@@ -1,6 +1,6 @@
 <template>
     <div class="main-content">
-        <div class="description-block">
+        <div class="description-block description-block-app">
             <img class="description-block-img" src="@/assets/image/mockup_description.png">
             <p class="description-block-text">
                 <img class="description-block-logo" src="@/assets/image/apollo.png">

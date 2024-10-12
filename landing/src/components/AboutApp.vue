@@ -20,7 +20,7 @@
                 </p>
             </div>
             <div class="carousel-block">
-                <img class="carousel-two-iphon" src="@/assets/image/video_analysis.png">
+                <img class="carousel-img" src="@/assets/image/video_analysis.png">
                 <p class="carousel-text carousel-text-two">
                     Видеоанализ выполнения<br> упражнений
                 </p>
